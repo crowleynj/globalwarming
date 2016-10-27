@@ -1,0 +1,193 @@
+/*
+* Author: Neil Crowley
+* Date : 2016/04/22
+*/
+
+#mylist {
+		text-align: center;
+		font-family: 'Josefin';
+		}
+
+#mylist li a, #mylist li.ui-li-divider{
+		font-family: 'Josefin';
+		font-size: 20px;
+		text-align: center;
+		}
+		
+.stats 	{
+		background-attachment: fixed;
+		background-size: 100% 100%;
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+@font-face {
+    	font-family: 'Josefin';
+    	src: url('Josefin.ttf');
+}
+		
+#text 	{
+		font-family: 'Josefin';
+		text-align: center;
+		text-shadow: 1px 1px #f2f2f2;
+		font-style: italic;
+		font-size: 50px;
+	    color: #262626;
+	    margin-top: 12%;
+	    margin-right: 5px;
+	    margin-left: 5px;
+		}
+
+h2 		{
+	    color: black;
+		}
+
+#home {	
+		font-family: 'Josefin';
+		font-size: 18px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100px;
+		text-align: center;
+		border-radius: 10px;
+		position: absolute;
+		left:    0;
+		bottom:   0;
+		margin-left: 10px;
+		}
+
+#back {
+		font-family: 'Josefin';
+		font-size: 18px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100px;
+		text-align: center;
+		border-radius: 10px;
+		position: absolute;
+		left:    0;
+		bottom:   0;
+		margin-left: 150px;
+		}
+
+#next 	{	
+		font-family: 'Josefin';
+		font-size: 18px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100px;
+		text-align: center;
+		border-radius: 10px;
+		position: absolute;
+		right:    0;
+		bottom:   0;
+		margin-right: 10px;
+		}
+
+#help 	{	
+		font-family: 'Josefin';
+		font-size: 18px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 250px;
+		text-align: center;
+		border-radius: 10px;
+		position: absolute;
+		right:    0;
+		bottom:   0;
+		margin-right: 10px;
+		}
+
+#backgroundpic 
+		{
+		background-image: url("cssimages/sky.jpg");
+		}
+
+#panel1
+		{
+    	background-image: url("cssimages/sky.jpg");
+    	outline: none;
+		}
+
+.hello {
+		font-family: 'Josefin';
+		font-weight: bold;
+		color: #000000;
+		font-size: 12px;
+		text-shadow: none;
+		outline: none;
+		}
+
+.insidepanel 
+		{
+		background-color: transparent;
+		border-radius: 10px;
+		text-align: center;
+		outline: none;
+		}
+
+#head   { 
+		font-family: 'Josefin';
+		font-size: 22px;
+		text-align: center;
+		}
+
+#foot {font-family: 'Josefin';
+		font-size: 22px;
+		text-align: center; 
+		}
+
+#sources {font-family: 'Josefin';
+		font-size: 16px;
+		}
+
+#close {font-family: 'Josefin';
+		font-size: 20px;
+		background: transparent;
+		font-weight: bold;
+		text-shadow: none;
+		}
+
+#jsonSearch {font-family: 'Josefin';
+		font-size: 22px;
+		text-align: center;
+		}
+
+@media only screen and (max-width: 667px){
+
+		#back, #next {width: 70px;}
+
+		#help {width: 65px;}
+
+		#text {font-size: 20px;} 
+		}
+		
+@media only screen and (min-device-width : 320px) and (max-width: 480px){
+			
+		#back {
+			   width: 45px;
+			   margin-left: 140px;
+			  }
+
+		#next {width: 45px;}
+
+		#home { width: 80px; }
+
+		#help {width: 45px;}
+
+		#text {font-size: 20px;}  
+
+		#sources {font-size: 12px;}
+
+		#head {
+				font-size: 16px;
+			  }
+		
+		}
+
+
+

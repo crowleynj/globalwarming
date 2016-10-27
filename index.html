@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<!-- 
+* Author: Neil Crowley
+* Date: 2016/04/22
+* Ref: www.jquerymobile.com
+-->
+
+
+<html> 
+<meta charset="UTF-8">
+<head>
+	<title>11 Global Warming Facts</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content ="initial-scale=1, width = device-width">
+    <meta name="Global Warming jQuery Website">
+    <meta name="Neil Crowley">
+	<link rel="stylesheet" href="js/jquery.mobile-1.4.5.min.css"> <!-- Link to JQuery Mobile CSS file -->
+	<link rel="stylesheet" href="js/jquery.mobile.icons.min.css"> <!-- Link to JQuery Mobile Icons file -->
+	<link rel="stylesheet" type="text/css" href="css/globalwarming.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script> <!-- Link to JQuery file -->
+	<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script> <!-- Link to JQuery Mobile file -->
+	<script type="text/javascript" src="js/factsjs.js"></script> <!-- Link to Javascript functionality file -->
+</head>
+
+<!-- Start function is triggered once body of page is loaded. -->
+<body onload = start()>
+	<!-- Create DIVS for page layout features/dynamic data-role page, panel and list creation with icon and transition tags. -->
+	<div id="pages">
+		<div data-role ="page" style="background: url(css/cssimages/earth2.jpg);">
+		<div data-role="header" role="banner">
+							<a href="#panel1" data-role="button" id="sources" class="ui-btn"><i>Sources</i></a>
+								<h1 id="head" class="ui-title" role="heading" aria-level="1">11 Global Warming Facts</h1>
+						</div>
+			<div class="leftp" data-role="panel" data-position="left" data-display="overlay" id="panel1">
+        			<div class="insidepanel">
+            			<h4 class="hello">
+            				From 'DoSomething.org': </br></br>
+							1. <i>Natural Resources Defense Council. "Global Warming Basics." Web Accessed April 18, 2015.</i> </br></br>
+							2. <i>Parry, Martin L. "Climate Change 2007: impacts, adaptation and vulnerability: contribution of Working Group II to the fourth assessment report of the Intergovernmental Panel on Climate Change." Cambridge University Press, 2007.</i> </br></br>
+							3. <i>Parry, Martin L. "Climate Change 2007: impacts, adaptation and vulnerability: contribution of Working Group II to the fourth assessment report of the Intergovernmental Panel on Climate Change." Cambridge University Press, 2007.</i> </br></br>
+							4. <i>Kunzig, Robert. "Climate Milestone: Earth's CO2 Level Passes 400 ppm." National Geographic Society, 2013. Web Accessed April 18, 2015.</i> </br></br>
+							5. <i>Natural Resources Defense Council. "Global Warming Basics." Web Accessed April 18, 2015.</i> </br></br>
+							6. <i>Natural Resources Defense Council. "Cleaner and Cheaper: Using the Clean Air Act to Sharply Reduce Carbon Pollution from Existing Power Plants." Web Accessed April 18, 2015.</i> </br></br>
+							7. <i>The Intergovernmental Panel on Climate Change. "Summary for Policymakers. In: Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation." Cambridge University Press. Web Accessed April 18, 2015.</i> </br></br>
+							8. <i>NASA's Jet Propulsion Laboratory. "The current and future consequences of global change." Web Accesssed April 18, 2015.</i> </br></br>
+							9. <i>U.S. Global Change Research Program. "Global Climate Change Impacts in the United States." Web Accessed April 18, 2015.</i> </br></br>
+							10. <i>U.S. Global Change Research Program. "Global Climate Change Impacts in the United States." Web Accessed April 18, 2015.</i> </br></br>
+							11. <i>Coral Reef Alliance. "Reef Threats: Global." Web Accessed April 18, 2015.</i>
+							</br></br>
+							All images used under free licence from FreeImages.com.
+						</h4>
+       				 </div>
+        				<p>
+							<a data-rel="close" data-role="button" id="close">Close</a>
+							</p>
+    				</div>
+				<div class ="primary-content" >
+					<div data-demo-html ="true">
+					</div>
+					<button class="ui-btn" id="jsonSearch">Click here to load fact list</button>
+						
+						<ul data-role="listview" id="mylist">
+
+						</ul>
+				</div>
+				<div data-role="footer" data-position="fixed" role="banner">
+					<h4 id="foot" role="footer" aria-level="1">© 2016</h4>
+				</div>
+		</div>
+		</div>
+</body>
+
+</html>

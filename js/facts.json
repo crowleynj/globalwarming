@@ -1,0 +1,78 @@
+
+{
+	"facts": [
+	{
+		"ID": "0",
+		"Name": "1. Global Warming",
+		"Image": "css/cssimages/sky.jpg",
+		"Text": "Global warming is the increase of Earth's average surface temperature due to greenhouse gases that collect in the atmosphere like a thickening blanket, trapping the sun's heat and causing the planet to warm up."
+	},
+	{	
+		"ID": "1",
+		"Name": "2. Greenhouse Gases",
+		"Image": "css/cssimages/cloud-factory.jpg",
+		"Text": "Greenhouse gases keep heat close to the earth’s surface making it livable for humans and animals. However, global warming is happening largely due to an over-emittance of these gases and fossil fuels (natural oil, gasoline, coal)."
+	},
+	{
+		"ID": "2",
+		"Name": "3. Industry",
+		"Image": "css/cssimages/industry.jpg",
+		"Text": "With the start of industry in the 1700's, humans began emitting more fossil fuels from coal, oil, and gas to run our cars, trucks, and factories. By driving a “smarter” car, you will not only save on gas, but help prevent global warming."
+	},
+	{
+		"ID": "3",
+		"Name": "4. Carbon Dioxide",
+		"Image": "css/cssimages/chimney.jpg",
+		"Text": "There is more carbon dioxide in the atmosphere today than at any point in the last 800,000 years."
+	},
+	{	
+		"ID": "4",
+		"Name": "5. America",
+		"Image": "css/cssimages/america.jpg",
+		"Text": "Though Americans make up just 4 percent of the world's population, they produce 25 percent of the carbon dioxide pollution from fossil-fuel burning, by far the largest share of any country."
+	},
+	{
+		"ID": "5",
+		"Name": "6. Clean Air Act",
+		"Image": "css/cssimages/cleanair.jpg",
+		"Text": "The American 'Environmental Protection Agency' (EPA) has both the authority and responsibility to reduce pollution from electric power plants under the Clean Air Act, the nation's bedrock air pollution law adopted in 1970."
+	},
+	{
+		"ID": "6",
+		"Name": "7. Global Sea Levels",
+		"Image": "css/cssimages/sealevels.jpg",
+		"Text": "Since 1870, global sea levels have risen by about 8 inches."
+	},
+	{
+		"ID": "7",
+		"Name": "8. Observable Effects",
+		"Image": "css/cssimages/glaciers.jpg",
+		"Text": "Global climate change has already had observable effects on the environment. Glaciers have shrunk, ice on rivers and lakes is breaking up earlier, plant and animal ranges have shifted and trees are flowering sooner."
+	},
+	{
+		"ID": "8",
+		"Name": "9. Heat Waves",
+		"Image": "css/cssimages/hospital.jpg",
+		"Text": "Heat waves caused by global warming present greater risk of heat-related illness and death, most frequently among people who have diabetes, who are elderly or are very young."
+	},
+	{	
+		"ID": "9",
+		"Name": "10. Temperature",
+		"Image": "css/cssimages/temp.jpg",
+		"Text": "According to the U.S. Global Change Research Program, the temperature in the U.S. has increased by 2 degrees in the last 50 years and precipitation has increased by 5%."
+	},
+	{	
+		"ID": "10",
+		"Name": "11. Coral Reefs",
+		"Image": "css/cssimages/coral.jpg",
+		"Text": "Global warming puts coral reefs in danger as the ocean warms, scientist fear that coral reefs will not be able to adapt quickly enough to the resulting changing conditions, and bleaching incidents and diseases will increase."
+	},
+	{	
+		"ID": "11",
+		"Name": "12. Coral Reefs",
+		"Image": "images",
+		"Text": "Global warming"
+	}
+	]
+}
+
